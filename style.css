@@ -1,57 +1,53 @@
 /* 共通 css */
 :root {
-    --main-bg-color: ;
-    --sub-bg-color: ;
-    --font-color: ;
-    --border-color: ;
+    --font-color: #333333;
 }
 * {
     box-sizing: border-box;
-    color: ;
+    color: var(--font-color);
 }
 body {
-    /* https://ics.media/entry/200317/#各osのフォント指定はどれがいいか */
     font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
     margin: unset;
 }
 img {
     display: block;
 }
-h1, h2, h3, h4, h5, p, ul, ol, dl, dd {
+h1, h2, h3, h4, h5, p, ul, ol, dl, dd, menu {
     margin: unset;
     padding: unset;
 }
-h2 {
-    font-weight: ;
-    font-size: px;
-    color: ;
-}
 a, a:visited {
-    font-weight: ;
-    font-size: px;
-    color: ;
+    font-family: "Hiragino Kaku Gothic ProN";
+    font-weight: 300;
+    font-size: 14px;
+    color: var(--font-color);
     text-decoration: none;
 }
+p {
+    font-family: "Hiragino Kaku Gothic ProN";
+    font-weight: 300;
+    font-size: 12px;
+    color: var(--font-color);
+}
 p.copy {
-    font-weight: ;
-    font-size: px;
-    color: ;
+    font-family: "Hiragino Kaku Gothic ProN";
+    font-weight: 300;
+    font-size: 10px;
+    color: var(--font-color);
 }
 div.container {
-    max-width: px;
+    max-width: 1360px;
+    padding: 40px;
     margin: 0 auto;
 }
 
+
 /* 狭い画面向けの既定の CSS レイアウト値 */
-
-@media (min-width: 480px) {
-  /* 中型の画面向けの CSS */
+img {
+    width: 100px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   /* 広い画面向けの CSS */
-}
-
-@media (min-width: 1100px) {
-  /* 本当に広い画面向けの CSS */
 }
