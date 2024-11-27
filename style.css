@@ -91,14 +91,34 @@ header button.hamburger::after {
 }
 header button.hamburger:hover:before {
     transform: rotate(45deg);
+    /* background-color: #FFFFFF; */
     transition: all 0.2s ease;
 }
 header button.hamburger:hover::after {
     transform: rotate(-45deg);
+    /* background-color: #FFFFFF; */
     transition: all 0.2s ease;
+}
+header menu li {
+    margin-bottom: 14px;
+}
+header menu a,
+header menu a:visited {
+    color: #FFFFFF;
 }
 header menu {
     display: none;
+}
+header menu {
+    /* display: block; */
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100vh;
+    padding-top: 36px;
+    padding-left: 50px;
 }
 main {
     padding-top: 80px;
