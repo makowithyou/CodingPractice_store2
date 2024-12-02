@@ -179,7 +179,7 @@ footer p.copy {
 
 
 /* products.html ここから */
-main .grid .item:nth-last-of-type(-n + 4) {
+main#Products .grid .item:nth-last-of-type(-n + 4) {
    display: none;
 }
 /* products.html ここまで */
