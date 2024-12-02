@@ -84,7 +84,7 @@ header button.hamburger::before {
     background-color: #333;
     position: absolute;
     top: 8px;
-    left: 0;
+    left: 0px;
 }
 header button.hamburger::after {
     content: "";
@@ -94,20 +94,22 @@ header button.hamburger::after {
     background-color: #333;
     position: absolute;
     bottom: 8px;
-    right: 0;
+    right: 0px;
 }
+/* ハンバーガー クリックしたとき */
 header button.hamburger:hover:before {
     transform-origin: top right;
-    transform: rotate(-45deg);
+    transform: rotate(-45deg) translateY(-7px) translateX(-1px);
     /* background-color: #FFFFFF; */
-    transition: all 0.2s ease;
+    transition: all 0.5s ease;
 }
 header button.hamburger:hover::after {
     transform-origin: bottom right;
-    transform: rotate(45deg);
+    transform: rotate(45deg) translateY(7px);
     /* background-color: #FFFFFF; */
-    transition: all 0.2s ease;
+    transition: all 0.5s ease;
 }
+/* ハンバーガー クリックしたとき ここまで */
 header menu li {
     margin-bottom: 14px;
 }
@@ -170,8 +172,9 @@ main div.link {
 footer div.container {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 footer p.copy {
-    margin-top: unset;
+    margin: unset;
 }
 }
