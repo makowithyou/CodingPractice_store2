@@ -71,12 +71,21 @@ header div.container {
 header img.logo {
     width: 180px;
 }
-header button.hamburger {
+
+/*  */
+/* ハンバーガー ここから */
+/*  */
+header div.hamburger input {
+    display: none;
+}
+header div.hamburger label {
+    z-index: 1;
+    display: block;
     width: 30px;
     height: 30px;
     position: relative;
 }
-header button.hamburger::before {
+header div.hamburger label::before {
     content: "";
     display: inline-block;
     width: 30px;
@@ -85,8 +94,9 @@ header button.hamburger::before {
     position: absolute;
     top: 8px;
     left: 0px;
+    transition: all 0.5s ease;
 }
-header button.hamburger::after {
+header div.hamburger label::after {
     content: "";
     display: inline-block;
     width: 30px;
@@ -95,21 +105,28 @@ header button.hamburger::after {
     position: absolute;
     bottom: 8px;
     right: 0px;
+    transition: all 0.5s ease;
 }
-/* ハンバーガー クリックしたとき */
-header button.hamburger:hover:before {
+/* クリックしたとき */
+header div.hamburger input:checked + label + menu {
+    display: block;
+}
+header div.hamburger input:checked + label:before {
     transform-origin: top right;
     transform: rotate(-45deg) translateY(-7px) translateX(-1px);
-    /* background-color: #FFFFFF; */
+    background-color: #FFFFFF;
     transition: all 0.5s ease;
 }
-header button.hamburger:hover::after {
+header div.hamburger input:checked + label::after {
     transform-origin: bottom right;
     transform: rotate(45deg) translateY(7px);
-    /* background-color: #FFFFFF; */
+    background-color: #FFFFFF;
     transition: all 0.5s ease;
 }
-/* ハンバーガー クリックしたとき ここまで */
+/*  */
+/* ハンバーガー ここまで */
+/*  */
+
 header menu li {
     margin-bottom: 14px;
 }
@@ -121,7 +138,6 @@ header menu {
     display: none;
 }
 header menu {
-    /* display: block; */
     background-color: rgba(0, 0, 0, 0.8);
     position: absolute;
     top: 0;
