@@ -1,4 +1,6 @@
+/*  */
 /* 共通 css */
+/*  */
 :root {
     --main-bg-color: #FFFFFF;
     --font-color: #333333;
@@ -53,9 +55,14 @@ div.container {
 div.grid {
     display: grid;
 }
+/*  */
+/* 共通 css ここまで */
+/*  */
 
 
+/*  */
 /* 狭い画面向けの既定の CSS レイアウト値 */
+/*  */
 header {
     width: 100%;
     height: 80px;
@@ -71,10 +78,7 @@ header div.container {
 header img.logo {
     width: 180px;
 }
-
-/*  */
 /* ハンバーガー ここから */
-/*  */
 header div.hamburger input {
     display: none;
 }
@@ -123,10 +127,7 @@ header div.hamburger input:checked + label::after {
     background-color: #FFFFFF;
     transition: all 0.5s ease;
 }
-/*  */
 /* ハンバーガー ここまで */
-/*  */
-
 header menu li {
     margin-bottom: 14px;
 }
@@ -174,9 +175,16 @@ footer p.copy {
     margin-top: 5px;
     margin-bottom: 20px;
 }
+/*  */
+/* 狭い画面 ここまで */
+/*  */
 
+
+
+/*  */
+/* 広い画面向けの CSS */
+/*  */
 @media (min-width: 900px) {
-  /* 広い画面向けの CSS */
 main div.grid {
     grid-template-columns: repeat(4, 23%);
     column-gap: 2.5%;
@@ -194,3 +202,6 @@ footer p.copy {
     margin: unset;
 }
 }
+/*  */
+/* 広い画面 ここまで */
+/*  */
