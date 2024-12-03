@@ -179,8 +179,15 @@ footer p.copy {
 
 
 /* products.html ここから */
-main#Products .grid .item:nth-last-of-type(-n + 4) {
-   display: none;
+main#Products nav.pagination ol {
+    width: fit-content;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 40px;
+}
+main#Products nav.pagination li {
+    font-size: 14px;
 }
 /* products.html ここまで */
 /*  */
