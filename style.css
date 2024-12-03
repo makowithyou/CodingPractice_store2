@@ -190,6 +190,22 @@ main#Products nav.pagination li {
     font-size: 14px;
 }
 /* products.html ここまで */
+
+
+/* item.html ここから */
+main#Item img {
+    width: 100%;
+}
+main#Item p, dt, dd {
+    font-size: 14px;
+}
+main#Item div.grid {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
+}
+/* item.html ここまで */
+
+
 /*  */
 /* 狭い画面 ここまで */
 /*  */
