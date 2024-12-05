@@ -161,8 +161,8 @@ main div.grid div.item img {
     margin-bottom: 10px;
 }
 main div.link {
-    margin-top: 59px;
-    margin-bottom: 102px;
+    margin-top: 60px;
+    margin-bottom: 100px;
     text-align: center;
 }
 footer ul {
@@ -233,7 +233,7 @@ main div.grid {
 }
 main div.link {
     margin-top: 40px;
-    margin-bottom: 121px;
+    margin-bottom: 120px;
 }
 footer div.container {
     display: flex;
@@ -242,7 +242,6 @@ footer div.container {
 }
 footer p.copy {
     margin: unset;
-}
 }
 /* index.html ここまで */
 
@@ -260,7 +259,11 @@ main#Item p {
     grid-column-start: 1;
     grid-column-end: 3;
 }
+main div.link {
+    margin-top: 60px;
+}
 /* item.html ここから */
+}
 /*  */
 /* 広い画面 ここまで */
 /*  */
