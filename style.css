@@ -184,6 +184,9 @@ footer p.copy {
 
 
 /* products.html ここから */
+main#Products {
+    padding-top: 40px;
+}
 main#Products nav.pagination ol {
     width: fit-content;
     margin: 0 auto;
@@ -193,6 +196,10 @@ main#Products nav.pagination ol {
 }
 main#Products nav.pagination li {
     font-size: 14px;
+}
+main#Products p.title {
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 /* products.html ここまで */
 
