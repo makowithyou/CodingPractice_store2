@@ -225,6 +225,8 @@ main#Item dl {
 /* 広い画面向けの CSS */
 /*  */
 @media (min-width: 900px) {
+
+/* index.html ここから */
 main div.grid {
     grid-template-columns: repeat(4, 1fr);
     column-gap: 2.5%;
@@ -242,6 +244,23 @@ footer p.copy {
     margin: unset;
 }
 }
+/* index.html ここまで */
+
+
+
+/* item.html ここから */
+main#Item img {
+    width: 400px;
+}
+main#Item div.grid:first-child {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 64px;
+}
+main#Item p {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+/* item.html ここから */
 /*  */
 /* 広い画面 ここまで */
 /*  */
