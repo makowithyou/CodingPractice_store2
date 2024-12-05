@@ -198,6 +198,7 @@ main#Products nav.pagination li {
     font-size: 14px;
 }
 main#Products p.title {
+    font-size: 12px;
     grid-column-start: 1;
     grid-column-end: 3;
 }
@@ -256,6 +257,14 @@ footer p.copy {
 
 
 
+/* products.html ここから */
+main#Products p.title {
+    grid-column-end: 5;
+}
+/* products.html ここまで */
+
+
+
 /* item.html ここから */
 main#Item img {
     width: 400px;
@@ -264,7 +273,7 @@ main#Item div.grid:first-child {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 64px;
 }
-main#Item p {
+main#Item p.title {
     grid-column-start: 1;
     grid-column-end: 4;
 }
