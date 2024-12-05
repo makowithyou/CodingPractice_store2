@@ -149,7 +149,7 @@ header menu {
     padding: 36px 50px
 }
 main {
-    padding-top: 80px;
+    margin-top: 80px;
 }
 main div.grid {
     grid-template-columns: repeat(2, 1fr);
@@ -195,7 +195,7 @@ main#Products nav.pagination li {
 
 /* item.html ここから */
 main#Item {
-    margin-top: 40px;
+    padding-top: 40px;
 }
 main#Item img {
     width: 100%;
