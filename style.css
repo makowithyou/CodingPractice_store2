@@ -151,20 +151,20 @@ header menu {
 main {
     margin-top: 80px;
 }
-main div.grid {
+main#Home div.grid {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 5%;
     row-gap: 40px;
 }
-main a.link_to_item:hover {
+main#Home a.link_to_item:hover {
     opacity: 0.7;
     transition: all 0.2s ease;
 }
-main div.grid div.item img {
+main#Home div.grid div.item img {
     width: 100%;
     margin-bottom: 10px;
 }
-main div.link {
+main#Home div.link {
     margin-top: 60px;
     margin-bottom: 100px;
     text-align: center;
@@ -239,11 +239,11 @@ main#Item dl {
 @media (min-width: 900px) {
 
 /* index.html ここから */
-main div.grid {
+main#Home div.grid {
     grid-template-columns: repeat(4, 1fr);
     column-gap: 2.5%;
 }
-main div.link {
+main#Home div.link {
     margin-top: 40px;
     margin-bottom: 120px;
 }
