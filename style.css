@@ -199,8 +199,7 @@ main#Products nav.pagination li {
 }
 main#Products p.title {
     font-size: 12px;
-    grid-column-start: 1;
-    grid-column-end: 3;
+    margin-bottom: 11px;
 }
 /* products.html ここまで */
 
@@ -208,6 +207,9 @@ main#Products p.title {
 /* item.html ここから */
 main#Item {
     padding-top: 40px;
+}
+main#Item p.title {
+    margin-bottom: 30px;
 }
 main#Item img {
     width: 100%;
@@ -259,7 +261,7 @@ footer p.copy {
 
 /* products.html ここから */
 main#Products p.title {
-    grid-column-end: 5;
+    margin-bottom: 30px;
 }
 /* products.html ここまで */
 
@@ -269,13 +271,12 @@ main#Products p.title {
 main#Item img {
     width: 400px;
 }
-main#Item div.grid:first-child {
+main#Item p.title + div.grid {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 64px;
 }
 main#Item p.title {
-    grid-column-start: 1;
-    grid-column-end: 4;
+    margin-bottom: 30px;
 }
 main div.link {
     margin-top: 60px;
