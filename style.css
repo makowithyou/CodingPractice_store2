@@ -203,6 +203,11 @@ main#Item div.grid {
     grid-template-columns: repeat(1, 1fr);
     row-gap: 30px;
 }
+main#Item dl {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 14px;
+}
 /* item.html ここまで */
 
 
