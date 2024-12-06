@@ -227,6 +227,21 @@ main#Item dl {
     grid-gap: 14px;
 }
 /* item.html ここまで */
+
+
+
+/* about.html ここまで */
+main#About {
+    padding-top: 40px;
+}
+main#About div.grid {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 30px;
+}
+main#About p.title {
+    margin-bottom: 30px;
+}
+/* about.html ここまで */
 /*  */
 /* 狭い画面 ここまで */
 /*  */
