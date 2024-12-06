@@ -46,6 +46,9 @@ p.copy {
     font-size: 10px;
     color: var(--font-color);
 }
+p.title {
+    font-size: 14px;
+}
 div.container {
     max-width: 1360px;
     padding: 0 40px;
@@ -198,7 +201,6 @@ main#Products nav.pagination li {
     font-size: 14px;
 }
 main#Products p.title {
-    font-size: 12px;
     margin-bottom: 11px;
 }
 /* products.html ここまで */
@@ -253,7 +255,6 @@ main#Company {
 }
 main#Company p.title {
     margin-bottom: 50px;
-    font-size: 14px;
 }
 main#Company dl:not(:last-of-type) {
     border-bottom: 1px solid #DCDBDB;
