@@ -243,6 +243,29 @@ main#About p.title {
     margin-bottom: 30px;
 }
 /* about.html ここまで */
+
+
+
+/* company.html ここまで */
+main#Company {
+    padding-top: 40px;
+    margin-bottom: 132px;
+}
+main#Company p.title {
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+main#Company dt, main#Company dd {
+    font-size: 14px;
+}
+main#Company div.grid {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 20px;
+}
+iframe {
+    filter: grayscale(1);
+}
+/* company.html ここまで */
 /*  */
 /* 狭い画面 ここまで */
 /*  */
