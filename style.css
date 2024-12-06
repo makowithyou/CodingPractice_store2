@@ -246,24 +246,35 @@ main#About p.title {
 
 
 
-/* company.html ここまで */
+/* company.html ここから */
 main#Company {
     padding-top: 40px;
-    margin-bottom: 132px;
+    margin-bottom: 102px;
 }
 main#Company p.title {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-size: 14px;
 }
-main#Company dt, main#Company dd {
+main#Company dl:not(:last-of-type) {
+    border-bottom: 1px solid #DCDBDB;
+}
+main#Company dt {
     font-size: 14px;
+    margin-bottom: 10px;
+}
+main#Company dd {
+    font-size: 14px;
+    margin-bottom: 20px;
 }
 main#Company div.grid {
     grid-template-columns: repeat(1, 1fr);
     row-gap: 20px;
 }
 iframe {
+    margin-top: 40px;
     filter: grayscale(1);
+    width: 295px;
+    height: 300px; 
 }
 /* company.html ここまで */
 /*  */
@@ -335,6 +346,30 @@ main#About div.grid p {
     grid-column-end: 2;
 }
 /* about.html ここまで */
+
+
+
+/* company.html ここから */
+main#Company {
+    margin-bottom: 122px;
+}
+main#Company div.grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+main#Company dl {
+    grid-column-start: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+main#Company dd {
+    margin-bottom: 20px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+iframe {
+    width: 600px;
+}
+/* company.html ここまで */
 }
 /*  */
 /* 広い画面 ここまで */
