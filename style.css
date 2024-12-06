@@ -241,6 +241,9 @@ main#About div.grid {
     grid-template-columns: repeat(1, 1fr);
     row-gap: 30px;
 }
+main#About p {
+    font-size: 14px;
+}
 main#About p.title {
     margin-bottom: 30px;
 }
