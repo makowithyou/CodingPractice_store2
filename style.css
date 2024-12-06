@@ -259,6 +259,9 @@ main#Company {
 main#Company p.title {
     margin-bottom: 50px;
 }
+main#Company dl {
+    padding-left: 10px;
+}
 main#Company dl:not(:last-of-type) {
     border-bottom: 1px solid #DCDBDB;
 }
