@@ -233,6 +233,7 @@ main#Item dl {
 /* about.html ここまで */
 main#About {
     padding-top: 40px;
+    margin-bottom: 132px;
 }
 main#About div.grid {
     grid-template-columns: repeat(1, 1fr);
@@ -296,7 +297,21 @@ main#Item p.title {
 main div.link {
     margin-top: 60px;
 }
-/* item.html ここから */
+/* item.html ここまで */
+
+
+/* about.html ここから */
+main#About {
+    margin-bottom: 122px;
+}
+main#About div.grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+main#About div.grid p {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+/* about.html ここまで */
 }
 /*  */
 /* 広い画面 ここまで */
