@@ -313,6 +313,9 @@ footer p.copy {
 main#Products p.title {
     margin-bottom: 30px;
 }
+main#Products div.grid {
+    grid-template-columns: repeat(4, 1fr);
+}
 /* products.html ここまで */
 
 
